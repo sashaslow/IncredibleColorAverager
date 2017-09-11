@@ -1,4 +1,4 @@
-export let getAverageColour = (img, type, inv) =>  {
+export default function getAverageColour(img, type, inv) {
   let canvas = document.createElement('canvas'),
     context = canvas.getContext && canvas.getContext('2d'),
     rgb = {r:102,g:102,b:102},

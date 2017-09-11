@@ -1,22 +1,36 @@
 {
-  "name": "IncredibleColorAverager",
+  "name": "incredible-color-averager",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Get the average color of your img element in a css-readable format",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "keywords": [
+    "average",
+    "color",
+    "colors",
+    "dominant"
+  ],
+  "author": "sashaslow",
+  "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-es2015": "^6.24.1",
-    "uglifyjs-webpack-plugin": "^0.4.6",
-    "webpack": "^3.5.6"
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "watch": "^1.0.2"
   },
-  "scripts": {
-    "build": "webpack"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sashaslow/IncredibleColorAverager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sashaslow/IncredibleColorAverager/issues"
+  },
+  "homepage": "https://github.com/sashaslow/IncredibleColorAverager#readme"
 }
