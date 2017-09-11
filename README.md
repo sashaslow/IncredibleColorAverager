@@ -1,13 +1,13 @@
 #
 
-This package provides a ```getAverageColor``` function with syntax like ```getAverageColour(img, type, inv)```, where ```img``` is youre ```<img>``` element, ```type``` is type of color model you choose (```'RGB'``` or ```'HEX'```), ```inv``` — optional parameter (if you write ```true``` your color will be inverted), and returns css-readable color.
+This package provides a ```getAverageColor``` function with syntax like ```getAverageColour(img, type, inv)```, where ```img``` is youre ```<img>``` element, ```type``` is type of color model you choose (```'RGB'``` or ```'HEX'```), ```inv``` — optional parameter (if you write ```true``` your color will be inverted) and returns css-readable color.
 
-#Install
+# Install
 
 ```shell
 $ npm install incredible-color-averager --save
 ```
-#Usage
+# Usage
 
 ```javascript
 const getAverageColour = require('incredible-color-averager')
@@ -26,6 +26,6 @@ const invertHexColor = getAverageColour(img, "HEX", true)
 console.log(invertHexColor)
 /// #000000
 ```
-#License
+# License
 
 MIT
