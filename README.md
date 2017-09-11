@@ -1,6 +1,6 @@
 #
 
-This package provides a ```getAverageColor``` function with syntax like ```getAverageColour(img, type, inv)```, where ```img``` is youre ```<img>``` element, ```type``` is type of color model you choose (```'RGB'``` or ```'HEX'```), ```inv``` — optional parameter (if you write ```true``` your color will be inverted) and returns css-readable color.
+This package provides a ```getAverageColor``` function returns css-readable color with syntax like ```getAverageColour(img, type, inv)```, where ```img``` is youre ```<img>``` HTMLElement, ```type``` is type of color model you choose (```'RGB'``` or ```'HEX'```), ```inv``` — optional parameter (set to ```true``` if you want an inverted resulting value).
 
 # Install
 
